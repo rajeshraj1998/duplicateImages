@@ -1,8 +1,8 @@
-#put ur source folder path
+#replace with  your source folder path
 source=r"C:\Users\Rajesh\Desktop\miniProjectPython\Images"
 all_images  = [_ for _ in os.listdir(source)]
 
-#put ur destination folder path
+#replace with your destination folder path
 destination = r'C:\Users\Rajesh\Desktop\miniProjectPython\duplicate'
 duplicates = []
 for file_org in all_images:
