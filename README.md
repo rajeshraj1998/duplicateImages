@@ -1,5 +1,5 @@
 # Duplicate Images
-using the image hashing identifies the similar images and moves the duplicate images to another folder
+using the image hashing to identify the similar images.
 <h1> Dependencies</h1>
 <p>
   <ul>
@@ -30,6 +30,17 @@ source=r"C:\Users\Rajesh\Desktop\miniProjectPython\Images"<br>
 <h1>How it works</h1>
 <p>
   The image is converted into a unique hash which will be a string. Each image has a unique fingerprint,
-  which can be used for identifing the duplicate images. Perceptual hash is the best and ideal hashing algoritms for image processing.  
+  which can be used for identifing the duplicate images. Few of the image hashing that are included in the library are 
+  <ul>
+    <li>average hashing (aHash)</li>
+    <li>perception hashing (pHash)</li>
+    <li>difference hashing (dHash)</li>
+    <li>wavelet hashing (wHash)</li>
+    </ul>
 </p>
+<h1>Reference<h1>
+  <p>ourcodeworld
+<a href="https://ourcodeworld.com/articles/read/1006/how-to-determine-whether-2-images-are-equal-or-not-with-the-perceptual-hash-in-python">click here</a></p>
+  
+  
   
