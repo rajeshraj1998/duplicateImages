@@ -20,7 +20,7 @@ using the image hashing to identify the similar images.
   </p>
   
 <h1>**Remember**</h1>
-<p> Add prefix of r to the source and destination folder
+<p> Add prefix of r to the source and destination folder. 
  It will be something like this
 source=r"C:\Users\Rajesh\Desktop\miniProjectPython\Images"<br>
   destination = r'C:\Users\Rajesh\Desktop\miniProjectPython\duplicate'</p>
