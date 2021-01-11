@@ -24,5 +24,12 @@ using the image hashing identifies the similar images and moves the duplicate im
  It will be something like this
 <h5>source=r"C:\Users\Rajesh\Desktop\miniProjectPython\Images"<br>
 destination = r'C:\Users\Rajesh\Desktop\miniProjectPython\duplicate'</h5>
+ 
+<h4> remember to take a backup, before running the program <h4>
 
+<h1>How it works<h1>
+<p>
+  The image is converted into a unique hash which will be a string. Each image has a unique fingerprint,
+  which can be used for identifing the duplicate images. Perceptual hash is the best and ideal hashing algoritms for image processing.  
+</p>
   
