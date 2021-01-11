@@ -21,9 +21,9 @@ using the image hashing to identify the similar images.
   
 <h1>**Remember**</h1>
 <p> Add prefix of r to the source and destination folder. 
- It will be something like this
+ It will be something like this<br>
 source=r"C:\Users\Rajesh\Desktop\miniProjectPython\Images"<br>
-  destination = r'C:\Users\Rajesh\Desktop\miniProjectPython\duplicate'</p>
+destination = r'C:\Users\Rajesh\Desktop\miniProjectPython\duplicate'</p>
  
 <h3> Remember to take a backup, before running the program <h3>
 
