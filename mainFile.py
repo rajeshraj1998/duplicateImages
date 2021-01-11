@@ -8,12 +8,12 @@ duplicates = []
 for file_org in all_images:
     if not file_org in duplicates:
         image_org = Image.open(os.path.join(source, file_org))
-        imghash = imagehash.average_hash(image_org)
+        imghash = imagehash.phash(image_org)
         
         for file_check in all_images:
             if file_check!=file_org:
                 img_check = Image.open(os.path.join(source, file_check))
-                imghash1 = imagehash.average_hash(img_check)
+                imghash1 = imagehash.phash(img_check)
  
                 if(imghash==imghash1):
                     duplicates.append(file_org)
