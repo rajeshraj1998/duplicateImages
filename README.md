@@ -1,4 +1,4 @@
-# duplicate Images
+# Duplicate Images
 using the image hashing identifies the similar images and moves the duplicate images to another folder
 <h1> dependencies</h1>
 <p>
