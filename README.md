@@ -1,6 +1,6 @@
 # Duplicate Images
 using the image hashing identifies the similar images and moves the duplicate images to another folder
-<h1> dependencies</h1>
+<h1> Dependencies</h1>
 <p>
   <ul>
     <li> pillow </li>
@@ -10,7 +10,7 @@ using the image hashing identifies the similar images and moves the duplicate im
   </ul>
   </p>
   <p>
-    <h1>install the dependencies using pip</h1>
+    <h1>Install the dependencies using pip</h1>
       <ul>
         <li>pip3 install Pillow</li>
          <li>pip3 install os-sys</li>
@@ -25,7 +25,7 @@ using the image hashing identifies the similar images and moves the duplicate im
 source=r"C:\Users\Rajesh\Desktop\miniProjectPython\Images"<br>
   destination = r'C:\Users\Rajesh\Desktop\miniProjectPython\duplicate'</p>
  
-<h3> remember to take a backup, before running the program <h3>
+<h3> Remember to take a backup, before running the program <h3>
 
 <h1>How it works</h1>
 <p>
